@@ -1,22 +1,29 @@
-// src/services/systemService.js
+import { SYSTEM_CONFIG } from "../config/system.js";
+import { AIRPORT_CONFIG } from "../config/airport.js";
 
 export function getSystemHealth() {
-    return {
-      status: "healthy",
-      service: "Ben Gurion Security Alerts System",
-      version: "1.0.0"
-    };
-  }
-  
-  export function getSystemInfo() {
-    return {
-      name: "Ben Gurion Security Alerts System",
-      description: "Aviation security monitoring system",
-      version: "1.0.0",
-      endpoints: {
-        health: "/health",
-        info: "/info", 
-        alerts: "/api/alerts"
-      }
-    };
-  }
+  return {
+    status: "healthy",
+    service: SYSTEM_CONFIG.name,
+    version: SYSTEM_CONFIG.version
+  };
+}
+
+export function getSystemInfo() {
+  return {
+    name: SYSTEM_CONFIG.name,
+    description: "Aviation security monitoring system",
+    version: SYSTEM_CONFIG.version,
+    airport: {
+      name: AIRPORT_CONFIG.name,
+      icao: AIRPORT_CONFIG.icao,
+      coordinates: AIRPORT_CONFIG.coordinates,
+      monitoringRadius: `${AIRPORT_CONFIG.monitoringRadius}km`
+    },
+    endpoints: {
+      health: "/health",
+      info: "/info", 
+      alerts: "/api/alerts"
+    }
+  };
+}
