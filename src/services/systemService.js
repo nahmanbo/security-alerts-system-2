@@ -23,7 +23,9 @@ export function getSystemInfo() {
     endpoints: {
       health: "/health",
       info: "/info", 
-      alerts: "/api/alerts"
+      alerts: "/api/alerts",
+      aircraft: "/api/aircraft",
+      collection: "/api/collection"
     }
   };
 }

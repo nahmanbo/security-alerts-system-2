@@ -7,6 +7,7 @@ import { SYSTEM_CONFIG } from "./src/config/system.js";
 import alertsRouter from "./src/routes/alertsRouter.js";
 import systemRouter from "./src/routes/systemRouter.js";
 import aircraftRouter from "./src/routes/aircraftRouter.js";
+import collectionRouter from "./src/routes/collectionRouter.js";
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use(logger);
 app.use("/", systemRouter);
 app.use("/api/alerts", alertsRouter);
 app.use("/api/aircraft", aircraftRouter);
+app.use("/api/collection", collectionRouter);
 
 // ================================
 // Start Server
@@ -35,5 +37,6 @@ app.listen(SYSTEM_CONFIG.port, () => {
   console.log(`🌐 Server: http://localhost:${SYSTEM_CONFIG.port}`);
   console.log(`🚨 Alerts: http://localhost:${SYSTEM_CONFIG.port}/api/alerts`);
   console.log(`✈️  Aircraft: http://localhost:${SYSTEM_CONFIG.port}/api/aircraft`);
+  console.log(`📊 Collection: http://localhost:${SYSTEM_CONFIG.port}/api/collection`);
   console.log(`🔐 OpenSky Auth: ${process.env.OPENSKY_CLIENT_ID ? 'ENABLED' : 'DISABLED'}`);
 });
