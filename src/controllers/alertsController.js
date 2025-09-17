@@ -2,47 +2,7 @@
 
 import * as alertsService from "../services/alertsService.js";
 import * as aircraftService from "../services/aircraftService.js";
-import * as monitoringService from "../services/monitoringService.js";
 import { ok, fail, wrap } from "../utils/controllerUtils.js";
-
-// =========================
-//   Monitoring (ניטור)
-// =========================
-
-// Start automatic monitoring / התחלת ניטור אוטומטי
-export const startMonitoring = wrap(async (req, res) => {
-  const config = (req.body && typeof req.body === "object") ? req.body : {};
-  const result = monitoringService.startMonitoring(config);
-  if (result?.success === false) return fail(res, 409, result.message || "Monitoring already running");
-  ok(res, { result });
-});
-
-// Stop automatic monitoring / עצירת ניטור אוטומטי
-export const stopMonitoring = wrap(async (req, res) => {
-  const result = monitoringService.stopMonitoring();
-  if (result?.success === false) return fail(res, 409, result.message || "Monitoring is not running");
-  ok(res, { result });
-});
-
-// Get monitoring status / קבלת סטטוס ניטור
-export const getMonitoringStatus = wrap(async (_req, res) => {
-  const status = monitoringService.getMonitoringStatus();
-  ok(res, { status });
-});
-
-// Update monitoring configuration / עדכון הגדרות ניטור
-export const updateMonitoringConfig = wrap(async (req, res) => {
-  const config = (req.body && typeof req.body === "object") ? req.body : {};
-  const result = monitoringService.updateMonitoringConfig(config);
-  ok(res, { result });
-});
-
-// Run manual monitoring analysis / הרצת ניתוח ידני
-export const runManualAnalysis = wrap(async (_req, res) => {
-  const result = await monitoringService.runManualAnalysis();
-  if (!result?.success) return fail(res, 500, result?.error || "Manual analysis failed");
-  ok(res, { result });
-});
 
 // =========================
 //   Alerts (התרעות)
@@ -125,14 +85,7 @@ export const clearAllAlerts = wrap(async (_req, res) => {
 
 // Get filtered alerts / קבלת התרעות מסוננות
 export const getFilteredAlerts = wrap(async (req, res) => {
-  const {
-    type,
-    severity,
-    active,
-    since,
-    includeHistorical = "false"
-  } = req.query;
-
+  const { type, severity, active, since, includeHistorical = "false" } = req.query;
   const rawLimit = Number(req.query.limit ?? 100);
   const limit = Number.isFinite(rawLimit) ? Math.min(Math.max(rawLimit, 1), 1000) : 100;
 
