@@ -9,6 +9,8 @@ import alertsRouter from "./src/routes/alertsRouter.js";
 import systemRouter from "./src/routes/systemRouter.js";
 import aircraftRouter from "./src/routes/aircraftRouter.js";
 import collectionRouter from "./src/routes/collectionRouter.js";
+import monitorRouter from "./src/routes/monitorRouter.js";
+
 
 const app = express();
 
@@ -29,6 +31,7 @@ app.use("/", systemRouter);
 app.use("/api/alerts", alertsRouter);
 app.use("/api/aircraft", aircraftRouter);
 app.use("/api/collection", collectionRouter);
+app.use("/api/monitor", monitorRouter);        // היעד החדש
 
 // ================================
 // Server Lifecycle Management
