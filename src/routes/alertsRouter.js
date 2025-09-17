@@ -1,4 +1,3 @@
-// src/routes/alertsRouter.js
 import { Router } from "express";
 import {
   getActiveAlerts,
@@ -8,10 +7,10 @@ import {
   getAlertsStats,
   analyzeCurrentAlerts,
   testAlertSystem,
-  clearAllAlerts,
-  getFilteredAlerts,
   saveAlerts,
   reloadAlerts,
+  clearAllAlerts,
+  getFilteredAlerts,
   getFullHistory,
   getAlertsByDateRange,
   getAvailableDailyFiles,
@@ -20,51 +19,53 @@ import {
 
 const router = Router();
 
-// GET /api/alerts - קבלת התרעות עם פילטרים (ברירת מחדל: פעילות בלבד)
-router.get("/", getFilteredAlerts);
+// =========================
+//   Alerts (התרעות)
+// =========================
 
-// GET /api/alerts/active - קבלת התרעות פעילות בלבד
+// Get active alerts / קבלת התרעות פעילות
 router.get("/active", getActiveAlerts);
 
-// GET /api/alerts/all - קבלת כל ההתרעות (כולל היסטוריה)
-router.get("/all", getAllAlerts);
+// Get all alerts / קבלת כל ההתרעות
+router.get("/", getAllAlerts);
 
-// GET /api/alerts/stats - סטטיסטיקות התרעות
-router.get("/stats", getAlertsStats);
-
-// GET /api/alerts/analyze - הפעלת ניתוח התרעות על נתונים נוכחיים
-router.get("/analyze", analyzeCurrentAlerts);
-
-// GET /api/alerts/test - בדיקת מערכת ההתרעות
-router.get("/test", testAlertSystem);
-
-// GET /api/alerts/type/:type - קבלת התרעות לפי סוג
+// Get alerts by type / קבלת התרעות לפי סוג
 router.get("/type/:type", getAlertsByType);
 
-// GET /api/alerts/severity/:severity - קבלת התרעות לפי חומרה
+// Get alerts by severity / קבלת התרעות לפי חומרה
 router.get("/severity/:severity", getAlertsBySeverity);
 
-// היסטוריה וקבצים יומיים
-// GET /api/alerts/history/full - קבלת היסטוריה מלאה של כל ההתרעות
-router.get("/history/full", getFullHistory);
+// Get alert statistics / קבלת סטטיסטיקות התרעות
+router.get("/stats", getAlertsStats);
 
-// GET /api/alerts/history/range - קבלת התרעות לפי טווח תאריכים
-router.get("/history/range", getAlertsByDateRange);
+// Analyze current aircraft data for alerts / ניתוח התרעות על נתוני מטוסים נוכחיים
+router.post("/analyze", analyzeCurrentAlerts);
 
-// GET /api/alerts/history/daily - רשימת קבצים יומיים זמינים
-router.get("/history/daily", getAvailableDailyFiles);
+// Test alert system / בדיקת מערכת ההתרעות
+router.get("/test", testAlertSystem);
 
-// GET /api/alerts/history/daily/:date - התרעות מיום ספציפי (YYYY-MM-DD)
-router.get("/history/daily/:date", getDailyAlerts);
-
-// פעולות ניהול
-// POST /api/alerts/save - שמירה ידנית לקובץ
+// Save alerts / שמירת התרעות
 router.post("/save", saveAlerts);
 
-// POST /api/alerts/reload - טעינה מחדש מהקובץ  
+// Reload alerts / טעינת התרעות מחדש
 router.post("/reload", reloadAlerts);
 
-// DELETE /api/alerts/clear - ניקוי כל ההתרעות ושמירה לקובץ
-router.delete("/clear", clearAllAlerts);
+// Clear all alerts (archive) / ניקוי כל ההתרעות (כולל ארכוב)
+router.post("/clear", clearAllAlerts);
+
+// Get filtered alerts / קבלת התרעות מסוננות
+router.get("/filtered", getFilteredAlerts);
+
+// Get full alerts history / קבלת היסטוריית התרעות מלאה
+router.get("/history", getFullHistory);
+
+// Get alerts by date range / קבלת התרעות לפי טווח תאריכים
+router.get("/history/range", getAlertsByDateRange);
+
+// List daily alert files / קבלת רשימת קבצים יומיים
+router.get("/daily/files", getAvailableDailyFiles);
+
+// Get alerts for a specific date / קבלת התרעות מתאריך מסוים
+router.get("/daily/:date", getDailyAlerts);
 
 export default router;

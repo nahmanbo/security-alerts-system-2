@@ -3,10 +3,14 @@ import { getAircraft, testOpenSky } from "../controllers/aircraftController.js";
 
 const router = Router();
 
-// GET /api/aircraft - get live aircraft data
+// =========================
+//   Aircraft (מטוסים)
+// =========================
+
+// Get live aircraft data / קבלת נתוני מטוסים חיים
 router.get("/", getAircraft);
 
-// GET /api/aircraft/test - test OpenSky connection
+// Test OpenSky connection / בדיקת חיבור ל־OpenSky
 router.get("/test", testOpenSky);
 
 export default router;

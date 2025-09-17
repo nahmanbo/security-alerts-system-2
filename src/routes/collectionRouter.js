@@ -1,23 +1,27 @@
 import { Router } from "express";
-import { 
-  getCollectionStatus, 
-  startDataCollection, 
+import {
+  getCollectionStatus,
+  startDataCollection,
   stopDataCollection,
-  manualCollect 
+  manualCollect
 } from "../controllers/collectionController.js";
 
 const router = Router();
 
-// GET /api/collection - collection status and stats
+// =========================
+//   Collection (איסוף נתונים)
+// =========================
+
+// Get collection status and stats / קבלת סטטוס וסטטיסטיקות איסוף
 router.get("/", getCollectionStatus);
 
-// POST /api/collection/start - start automatic collection
+// Start automatic collection / התחלת איסוף אוטומטי
 router.post("/start", startDataCollection);
 
-// POST /api/collection/stop - stop automatic collection
+// Stop automatic collection / עצירת איסוף אוטומטי
 router.post("/stop", stopDataCollection);
 
-// POST /api/collection/trigger - trigger manual collection
+// Trigger manual collection / איסוף ידני
 router.post("/trigger", manualCollect);
 
 export default router;
