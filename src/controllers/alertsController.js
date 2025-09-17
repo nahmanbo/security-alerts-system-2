@@ -1,4 +1,4 @@
-// Refactored Alerts Controller – clean structure, consistent error handling, bilingual docs
+// Refactored Alerts Controller – uniform envelopes + accurate HTTP status codes
 
 import * as alertsService from "../services/alertsService.js";
 import * as aircraftService from "../services/aircraftService.js";
@@ -11,33 +11,36 @@ import { ok, fail, wrap } from "../utils/controllerUtils.js";
 
 // Start automatic monitoring / התחלת ניטור אוטומטי
 export const startMonitoring = wrap(async (req, res) => {
-  const config = req.body && typeof req.body === "object" ? req.body : {};
+  const config = (req.body && typeof req.body === "object") ? req.body : {};
   const result = monitoringService.startMonitoring(config);
+  if (result?.success === false) return fail(res, 409, result.message || "Monitoring already running");
   ok(res, { result });
 });
 
 // Stop automatic monitoring / עצירת ניטור אוטומטי
 export const stopMonitoring = wrap(async (req, res) => {
   const result = monitoringService.stopMonitoring();
+  if (result?.success === false) return fail(res, 409, result.message || "Monitoring is not running");
   ok(res, { result });
 });
 
 // Get monitoring status / קבלת סטטוס ניטור
-export const getMonitoringStatus = wrap(async (req, res) => {
+export const getMonitoringStatus = wrap(async (_req, res) => {
   const status = monitoringService.getMonitoringStatus();
   ok(res, { status });
 });
 
 // Update monitoring configuration / עדכון הגדרות ניטור
 export const updateMonitoringConfig = wrap(async (req, res) => {
-  const config = req.body && typeof req.body === "object" ? req.body : {};
+  const config = (req.body && typeof req.body === "object") ? req.body : {};
   const result = monitoringService.updateMonitoringConfig(config);
   ok(res, { result });
 });
 
 // Run manual monitoring analysis / הרצת ניתוח ידני
-export const runManualAnalysis = wrap(async (req, res) => {
+export const runManualAnalysis = wrap(async (_req, res) => {
   const result = await monitoringService.runManualAnalysis();
+  if (!result?.success) return fail(res, 500, result?.error || "Manual analysis failed");
   ok(res, { result });
 });
 
@@ -46,13 +49,13 @@ export const runManualAnalysis = wrap(async (req, res) => {
 // =========================
 
 // Get active alerts / קבלת התרעות פעילות
-export const getActiveAlerts = wrap(async (req, res) => {
+export const getActiveAlerts = wrap(async (_req, res) => {
   const alerts = alertsService.getActiveAlerts();
   ok(res, { alerts, count: alerts.length });
 });
 
 // Get all alerts / קבלת כל ההתרעות
-export const getAllAlerts = wrap(async (req, res) => {
+export const getAllAlerts = wrap(async (_req, res) => {
   const alerts = alertsService.getAllAlerts();
   ok(res, { alerts, count: alerts.length });
 });
@@ -72,50 +75,51 @@ export const getAlertsBySeverity = wrap(async (req, res) => {
 });
 
 // Get alert statistics / קבלת סטטיסטיקות התרעות
-export const getAlertsStats = wrap(async (req, res) => {
+export const getAlertsStats = wrap(async (_req, res) => {
   const stats = alertsService.getAlertsStats();
   ok(res, { stats });
 });
 
 // Analyze current aircraft data for alerts / ניתוח התרעות על נתוני מטוסים נוכחיים
-export const analyzeCurrentAlerts = wrap(async (req, res) => {
+export const analyzeCurrentAlerts = wrap(async (_req, res) => {
   const aircraftResult = await aircraftService.getAircraftData();
   if (!aircraftResult.success) {
-    return fail(res, 500, "Failed to fetch aircraft data", {
-      aircraftError: aircraftResult.error,
-    });
+    return fail(res, 502, "Failed to fetch aircraft data", { upstream: aircraftResult.error });
   }
   const analysisResult = await alertsService.analyzeAlerts(aircraftResult.aircraft);
   ok(res, {
     analysis: {
       newAlerts: analysisResult.newAlerts,
       totalNewAlerts: analysisResult.totalNewAlerts,
-      aircraftAnalyzed: aircraftResult.count,
-    },
+      aircraftAnalyzed: aircraftResult.count
+    }
   });
 });
 
 // Test alert system health / בדיקת תקינות מערכת ההתרעות
-export const testAlertSystem = wrap(async (req, res) => {
+export const testAlertSystem = wrap(async (_req, res) => {
   const test = alertsService.testAlertSystem();
   ok(res, { test });
 });
 
 // Save alerts to storage / שמירת התרעות לאחסון
-export const saveAlerts = wrap(async (req, res) => {
+export const saveAlerts = wrap(async (_req, res) => {
   const result = await alertsService.saveAlerts();
+  if (!result?.success) return fail(res, 500, result?.error || "Save failed");
   ok(res, { result });
 });
 
 // Reload alerts from storage / טעינת התרעות מחדש מהאחסון
-export const reloadAlerts = wrap(async (req, res) => {
+export const reloadAlerts = wrap(async (_req, res) => {
   const result = await alertsService.reloadAlerts();
+  if (!result?.success) return fail(res, 500, result?.error || "Reload failed");
   ok(res, { result });
 });
 
-// Clear all alerts (with archiving) / ניקוי כל ההתרעות (כולל שמירה בארכיון)
-export const clearAllAlerts = wrap(async (req, res) => {
+// Clear all alerts (with archiving) / ניקוי כל ההתרעות (כולל ארכוב)
+export const clearAllAlerts = wrap(async (_req, res) => {
   const result = alertsService.clearAllAlerts();
+  if (!result?.success) return fail(res, 500, result?.error || "Clear failed");
   ok(res, { result });
 });
 
@@ -126,13 +130,25 @@ export const getFilteredAlerts = wrap(async (req, res) => {
     severity,
     active,
     since,
-    limit = 100,
-    includeHistorical = false,
+    includeHistorical = "false"
   } = req.query;
 
+  const rawLimit = Number(req.query.limit ?? 100);
+  const limit = Number.isFinite(rawLimit) ? Math.min(Math.max(rawLimit, 1), 1000) : 100;
+
+  let sinceTime = null;
+  if (since) {
+    const t = new Date(String(since)).getTime();
+    if (Number.isNaN(t)) return fail(res, 400, "Invalid 'since' date");
+    sinceTime = t;
+  }
+
+  const includeHist = String(includeHistorical).toLowerCase() === "true";
+
   let alerts;
-  if (includeHistorical === "true") {
+  if (includeHist) {
     const historyResult = await alertsService.getFullHistory();
+    if (!historyResult?.success) return fail(res, 500, historyResult?.error || "Failed to load history");
     alerts = historyResult.alerts || [];
   } else {
     alerts = alertsService.getAllAlerts();
@@ -141,50 +157,53 @@ export const getFilteredAlerts = wrap(async (req, res) => {
   if (type) alerts = alerts.filter((a) => a.type === type);
   if (severity) alerts = alerts.filter((a) => a.severity === severity);
   if (active !== undefined) {
-    const isActive = active === "true";
+    const isActive = String(active).toLowerCase() === "true";
     alerts = alerts.filter((a) => a.active === isActive);
   }
-  if (since) {
-    const sinceTime = new Date(since).getTime();
-    if (!isNaN(sinceTime)) alerts = alerts.filter((a) => a.timestamp >= sinceTime);
-  }
+  if (sinceTime !== null) alerts = alerts.filter((a) => a.timestamp >= sinceTime);
 
-  alerts = alerts.slice(0, parseInt(String(limit), 10));
+  alerts = alerts.slice(0, limit);
+
   ok(res, {
     alerts,
-    filters: { type, severity, active, since, limit, includeHistorical },
-    count: alerts.length,
+    filters: { type, severity, active: active ?? undefined, since: since ?? undefined, limit, includeHistorical: includeHist },
+    count: alerts.length
   });
 });
 
 // Get full alerts history / קבלת היסטוריית התרעות מלאה
-export const getFullHistory = wrap(async (req, res) => {
+export const getFullHistory = wrap(async (_req, res) => {
   const result = await alertsService.getFullHistory();
+  if (!result?.success) return fail(res, 500, result?.error || "Failed to load history");
   ok(res, result);
 });
 
 // Get alerts by date range / קבלת התרעות לפי טווח תאריכים
 export const getAlertsByDateRange = wrap(async (req, res) => {
   const { startDate, endDate } = req.query;
-  if (!startDate || !endDate) {
-    return fail(res, 400, "Both startDate and endDate are required");
-  }
+  if (!startDate || !endDate) return fail(res, 400, "Both 'startDate' and 'endDate' are required");
+
   const result = await alertsService.getAlertsByDateRange(startDate, endDate);
+  if (!result?.success) return fail(res, 500, result?.error || "Failed to query date range");
   ok(res, result);
 });
 
 // Get available daily alert files / קבלת קבצי התרעות יומיים זמינים
-export const getAvailableDailyFiles = wrap(async (req, res) => {
+export const getAvailableDailyFiles = wrap(async (_req, res) => {
   const result = await alertsService.getAvailableDailyFiles();
+  if (!result?.success) return fail(res, 500, result?.error || "Failed to list daily files");
   ok(res, result);
 });
 
 // Get alerts for a specific date / קבלת התרעות מתאריך מסוים
 export const getDailyAlerts = wrap(async (req, res) => {
   const { date } = req.params;
-  if (!date) {
-    return fail(res, 400, "Date parameter is required (format: YYYY-MM-DD)");
-  }
+  if (!date) return fail(res, 400, "Date parameter is required (format: YYYY-MM-DD)");
+
   const result = await alertsService.getDailyAlerts(date);
+  if (!result?.success) {
+    const code = (result?.error || "").toLowerCase().includes("no data") ? 404 : 500;
+    return fail(res, code, result?.error || "Failed to get daily alerts");
+  }
   ok(res, result);
 });
