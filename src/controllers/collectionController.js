@@ -1,44 +1,35 @@
+// Refactored Collection Controller – clean structure, consistent error handling, bilingual docs
+
 import * as collectionService from "../services/dataCollectionService.js";
+import { ok, fail, wrap } from "../utils/controllerUtils.js";
 
-// Get collection status and statistics
-export function getCollectionStatus(req, res) {
-  try {
-    const stats = collectionService.getCollectionStats();
-    res.json({success: true, collection: stats, timestamp: Date.now()});
-  } catch (error) {
-    res.status(500).json({success: false, error: error.message, timestamp: Date.now()});
-  }
-}
+// =========================
+//   Collection (איסוף נתונים)
+// =========================
 
-// Start automatic data collection
-export function startDataCollection(req, res) {
-  try {
-    const result = collectionService.startCollection();
-    const status = result.success ? 200 : 400;
-    res.status(status).json({success: result.success, ...result, timestamp: Date.now()});
-  } catch (error) {
-    res.status(500).json({success: false, error: error.message, timestamp: Date.now()});
-  }
-}
+// Get collection status and statistics / קבלת סטטוס וסטטיסטיקות איסוף נתונים
+export const getCollectionStatus = wrap(async (req, res) => {
+  const collection = collectionService.getCollectionStats();
+  ok(res, { collection });
+});
 
-// Stop automatic data collection
-export function stopDataCollection(req, res) {
-  try {
-    const result = collectionService.stopCollection();
-    const status = result.success ? 200 : 400;
-    res.status(status).json({success: result.success, ...result, timestamp: Date.now()});
-  } catch (error) {
-    res.status(500).json({success: false, error: error.message, timestamp: Date.now()});
-  }
-}
+// Start automatic data collection / התחלת איסוף נתונים אוטומטי
+export const startDataCollection = wrap(async (req, res) => {
+  const result = collectionService.startCollection();
+  if (!result.success) return fail(res, 400, result.message || "Failed to start collection");
+  ok(res, { result });
+});
 
-// Trigger manual collection
-export async function manualCollect(req, res) {
-  try {
-    const result = await collectionService.triggerCollection();
-    const status = result.success ? 200 : 500;
-    res.status(status).json({success: result.success, ...result, timestamp: Date.now()});
-  } catch (error) {
-    res.status(500).json({success: false, error: error.message, timestamp: Date.now()});
-  }
-}
+// Stop automatic data collection / עצירת איסוף נתונים אוטומטי
+export const stopDataCollection = wrap(async (req, res) => {
+  const result = collectionService.stopCollection();
+  if (!result.success) return fail(res, 400, result.message || "Failed to stop collection");
+  ok(res, { result });
+});
+
+// Trigger manual collection / הפעלת איסוף נתונים ידני
+export const manualCollect = wrap(async (req, res) => {
+  const result = await collectionService.triggerCollection();
+  if (!result.success) return fail(res, 500, result.message || "Manual collection failed");
+  ok(res, { result });
+});

@@ -1,22 +1,19 @@
 // src/controllers/systemController.js
 import * as systemService from "../services/systemService.js";
+import { ok, fail, wrap } from "../utils/controllerUtils.js";
 
-// Get system health status
-export function getHealth(req, res) {
-  try {
-    const health = systemService.getSystemHealth();
-    res.json({success: true, ...health, timestamp: Date.now()});
-  } catch (error) {
-    res.status(500).json({success: false, error: error.message, timestamp: Date.now()});
-  }
-}
+// =========================
+//   System (מערכת)
+// =========================
 
-// Get system information
-export function getInfo(req, res) {
-  try {
-    const info = systemService.getSystemInfo();
-    res.json({success: true, ...info, timestamp: Date.now()});
-  } catch (error) {
-    res.status(500).json({success: false, error: error.message, timestamp: Date.now()});
-  }
-}
+// Get system health status / קבלת סטטוס בריאות המערכת
+export const getHealth = wrap(async (req, res) => {
+  const health = systemService.getSystemHealth();
+  ok(res, { health });
+});
+
+// Get system information / קבלת מידע על המערכת
+export const getInfo = wrap(async (req, res) => {
+  const info = systemService.getSystemInfo();
+  ok(res, { info });
+});
