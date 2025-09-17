@@ -1,0 +1,120 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758060330546,
+      "collectionTime": "2025-09-16T22:05:30.546Z",
+      "metadata": {
+        "fetchDuration": 452,
+        "apiTimestamp": 1758060324,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738074",
+          "callsign": "ELY083",
+          "originCountry": "Israel",
+          "timestamp": 1758060324000,
+          "lastContact": 1758060165000,
+          "position": {
+            "latitude": 32.0146,
+            "longitude": 34.8871,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 11.83,
+            "groundSpeedKnots": 23,
+            "headingDegrees": 64.69,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738102",
+          "callsign": "ELY025",
+          "originCountry": "Israel",
+          "timestamp": 1758060324000,
+          "lastContact": 1758060312000,
+          "position": {
+            "latitude": 32.0044,
+            "longitude": 34.8771,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0.06,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 163.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "7380c8",
+          "callsign": "ELY027",
+          "originCountry": "Israel",
+          "timestamp": 1758060324000,
+          "lastContact": 1758060323000,
+          "position": {
+            "latitude": 32.0063,
+            "longitude": 34.8794,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.17,
+            "groundSpeedKnots": 12,
+            "headingDegrees": 25.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "89660a",
+          "callsign": "FDB1808",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758060324000,
+          "lastContact": 1758060323000,
+          "position": {
+            "latitude": 32.0048,
+            "longitude": 34.8794,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.57,
+            "groundSpeedKnots": 5,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 4
+    }
+  ],
+  "lastUpdated": "2025-09-16T22:05:30.546Z",
+  "totalCollections": 1
+}

@@ -1,0 +1,72 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758066064604,
+      "collectionTime": "2025-09-16T23:41:04.604Z",
+      "metadata": {
+        "fetchDuration": 470,
+        "apiTimestamp": 1758066059,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "73806e",
+          "callsign": "ELY372",
+          "originCountry": "Israel",
+          "timestamp": 1758066059000,
+          "lastContact": 1758066048000,
+          "position": {
+            "latitude": 32.0392,
+            "longitude": 34.8188,
+            "altitudeMeters": 342.9,
+            "altitudeFeet": 1125
+          },
+          "movement": {
+            "groundSpeedMps": 80.38,
+            "groundSpeedKnots": 156,
+            "headingDegrees": 121.66,
+            "verticalRateMps": -4.55,
+            "verticalRateFpm": -896
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5230
+          }
+        },
+        {
+          "icao24": "4692da",
+          "callsign": "AEE928",
+          "originCountry": "Greece",
+          "timestamp": 1758066059000,
+          "lastContact": 1758065980000,
+          "position": {
+            "latitude": 32.0062,
+            "longitude": 34.8763,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.75,
+            "groundSpeedKnots": 17,
+            "headingDegrees": 300.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7407
+          }
+        }
+      ],
+      "count": 2
+    }
+  ],
+  "lastUpdated": "2025-09-16T23:41:04.604Z",
+  "totalCollections": 1
+}

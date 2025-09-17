@@ -1,0 +1,366 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758045382683,
+      "collectionTime": "2025-09-16T17:56:22.683Z",
+      "metadata": {
+        "fetchDuration": 501,
+        "apiTimestamp": 1758045380,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738102",
+          "callsign": "ELY324",
+          "originCountry": "Israel",
+          "timestamp": 1758045380000,
+          "lastContact": 1758045379000,
+          "position": {
+            "latitude": 32.0037,
+            "longitude": 34.8764,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.06,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 267.19,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7556
+          }
+        },
+        {
+          "icao24": "503cbe",
+          "callsign": "ELY5137",
+          "originCountry": "Lithuania",
+          "timestamp": 1758045380000,
+          "lastContact": 1758045352000,
+          "position": {
+            "latitude": 31.9988,
+            "longitude": 34.8917,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 3.09,
+            "groundSpeedKnots": 6,
+            "headingDegrees": 70.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "43edea",
+          "callsign": "VLZ20H",
+          "originCountry": "United Kingdom",
+          "timestamp": 1758045380000,
+          "lastContact": 1758045377000,
+          "position": {
+            "latitude": 32.0033,
+            "longitude": 34.8933,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.43,
+            "groundSpeedKnots": 12,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 3
+    },
+    {
+      "timestamp": 1758045383398,
+      "collectionTime": "2025-09-16T17:56:23.398Z",
+      "metadata": {
+        "fetchDuration": 613800,
+        "apiTimestamp": 1758045381,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738102",
+          "callsign": "ELY324",
+          "originCountry": "Israel",
+          "timestamp": 1758045381000,
+          "lastContact": 1758045379000,
+          "position": {
+            "latitude": 32.0037,
+            "longitude": 34.8764,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.06,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 267.19,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7556
+          }
+        },
+        {
+          "icao24": "503cbe",
+          "callsign": "ELY5137",
+          "originCountry": "Lithuania",
+          "timestamp": 1758045381000,
+          "lastContact": 1758045352000,
+          "position": {
+            "latitude": 31.9988,
+            "longitude": 34.8917,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 3.09,
+            "groundSpeedKnots": 6,
+            "headingDegrees": 70.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "43edea",
+          "callsign": "VLZ20H",
+          "originCountry": "United Kingdom",
+          "timestamp": 1758045381000,
+          "lastContact": 1758045380000,
+          "position": {
+            "latitude": 32.0032,
+            "longitude": 34.8934,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.43,
+            "groundSpeedKnots": 12,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 3
+    },
+    {
+      "timestamp": 1758045421111,
+      "collectionTime": "2025-09-16T17:57:01.111Z",
+      "metadata": {
+        "fetchDuration": 343,
+        "apiTimestamp": 1758045415,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738102",
+          "callsign": "ELY324",
+          "originCountry": "Israel",
+          "timestamp": 1758045415000,
+          "lastContact": 1758045379000,
+          "position": {
+            "latitude": 32.0037,
+            "longitude": 34.8764,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.06,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 267.19,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7556
+          }
+        },
+        {
+          "icao24": "503cbe",
+          "callsign": "ELY5137",
+          "originCountry": "Lithuania",
+          "timestamp": 1758045415000,
+          "lastContact": 1758045400000,
+          "position": {
+            "latitude": 31.9977,
+            "longitude": 34.894,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 4.89,
+            "groundSpeedKnots": 10,
+            "headingDegrees": 118.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "43edea",
+          "callsign": "VLZ20H",
+          "originCountry": "United Kingdom",
+          "timestamp": 1758045415000,
+          "lastContact": 1758045388000,
+          "position": {
+            "latitude": 32.003,
+            "longitude": 34.8939,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.43,
+            "groundSpeedKnots": 12,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 3
+    },
+    {
+      "timestamp": 1758045451720,
+      "collectionTime": "2025-09-16T17:57:31.720Z",
+      "metadata": {
+        "fetchDuration": 337,
+        "apiTimestamp": 1758045442,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738102",
+          "callsign": "ELY324",
+          "originCountry": "Israel",
+          "timestamp": 1758045442000,
+          "lastContact": 1758045379000,
+          "position": {
+            "latitude": 32.0037,
+            "longitude": 34.8764,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.06,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 267.19,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7556
+          }
+        },
+        {
+          "icao24": "503cbe",
+          "callsign": "ELY5137",
+          "originCountry": "Lithuania",
+          "timestamp": 1758045442000,
+          "lastContact": 1758045438000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8961,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 4.89,
+            "groundSpeedKnots": 10,
+            "headingDegrees": 109.69,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "43edea",
+          "callsign": "VLZ20H",
+          "originCountry": "United Kingdom",
+          "timestamp": 1758045442000,
+          "lastContact": 1758045388000,
+          "position": {
+            "latitude": 32.003,
+            "longitude": 34.8939,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.43,
+            "groundSpeedKnots": 12,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 3
+    }
+  ],
+  "lastUpdated": "2025-09-16T17:57:31.721Z",
+  "totalCollections": 4
+}

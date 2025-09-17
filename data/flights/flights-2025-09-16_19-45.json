@@ -1,0 +1,582 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758041308910,
+      "collectionTime": "2025-09-16T16:48:28.910Z",
+      "metadata": {
+        "fetchDuration": 579,
+        "apiTimestamp": 1758041301,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738064",
+          "callsign": "ELY289",
+          "originCountry": "Israel",
+          "timestamp": 1758041301000,
+          "lastContact": 1758041301000,
+          "position": {
+            "latitude": 31.9978,
+            "longitude": 34.7251,
+            "altitudeMeters": 1516.38,
+            "altitudeFeet": 4975
+          },
+          "movement": {
+            "groundSpeedMps": 138.91,
+            "groundSpeedKnots": 270,
+            "headingDegrees": 291.05,
+            "verticalRateMps": 13.33,
+            "verticalRateFpm": 2624
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5631
+          }
+        },
+        {
+          "icao24": "738054",
+          "callsign": "ELY383",
+          "originCountry": "Israel",
+          "timestamp": 1758041301000,
+          "lastContact": 1758041300000,
+          "position": {
+            "latitude": 32.0317,
+            "longitude": 34.5697,
+            "altitudeMeters": 2118.36,
+            "altitudeFeet": 6950
+          },
+          "movement": {
+            "groundSpeedMps": 146.36,
+            "groundSpeedKnots": 285,
+            "headingDegrees": 284.04,
+            "verticalRateMps": 15.28,
+            "verticalRateFpm": 3008
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1352
+          }
+        },
+        {
+          "icao24": "738288",
+          "callsign": "ISR893",
+          "originCountry": "Israel",
+          "timestamp": 1758041301000,
+          "lastContact": 1758041269000,
+          "position": {
+            "latitude": 31.9939,
+            "longitude": 34.8885,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 286.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "896514",
+          "callsign": "FDB1126",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758041301000,
+          "lastContact": 1758041297000,
+          "position": {
+            "latitude": 32.0012,
+            "longitude": 34.8758,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738c0a",
+          "callsign": "ICL600",
+          "originCountry": "Israel",
+          "timestamp": 1758041301000,
+          "lastContact": 1758041299000,
+          "position": {
+            "latitude": 32.059,
+            "longitude": 34.9265,
+            "altitudeMeters": 358.14,
+            "altitudeFeet": 1175
+          },
+          "movement": {
+            "groundSpeedMps": 83.1,
+            "groundSpeedKnots": 162,
+            "headingDegrees": 208.47,
+            "verticalRateMps": -4.55,
+            "verticalRateFpm": -896
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 111
+          }
+        },
+        {
+          "icao24": "738e10",
+          "callsign": "4XDAP",
+          "originCountry": "Israel",
+          "timestamp": 1758041301000,
+          "lastContact": 1758041300000,
+          "position": {
+            "latitude": 31.8126,
+            "longitude": 34.8386,
+            "altitudeMeters": 266.7,
+            "altitudeFeet": 875
+          },
+          "movement": {
+            "groundSpeedMps": 46.7,
+            "groundSpeedKnots": 91,
+            "headingDegrees": 40.53,
+            "verticalRateMps": -2.93,
+            "verticalRateFpm": -577
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5237
+          }
+        }
+      ],
+      "count": 6
+    },
+    {
+      "timestamp": 1758041338042,
+      "collectionTime": "2025-09-16T16:48:58.042Z",
+      "metadata": {
+        "fetchDuration": 798,
+        "apiTimestamp": 1758041326,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738064",
+          "callsign": "ELY289",
+          "originCountry": "Israel",
+          "timestamp": 1758041326000,
+          "lastContact": 1758041326000,
+          "position": {
+            "latitude": 32.009,
+            "longitude": 34.6895,
+            "altitudeMeters": 1813.56,
+            "altitudeFeet": 5950
+          },
+          "movement": {
+            "groundSpeedMps": 145.66,
+            "groundSpeedKnots": 283,
+            "headingDegrees": 290.03,
+            "verticalRateMps": 16.26,
+            "verticalRateFpm": 3201
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5631
+          }
+        },
+        {
+          "icao24": "738288",
+          "callsign": "ISR893",
+          "originCountry": "Israel",
+          "timestamp": 1758041326000,
+          "lastContact": 1758041313000,
+          "position": {
+            "latitude": 31.9939,
+            "longitude": 34.8885,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 286.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "896514",
+          "callsign": "FDB1126",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758041326000,
+          "lastContact": 1758041297000,
+          "position": {
+            "latitude": 32.0012,
+            "longitude": 34.8758,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738c0a",
+          "callsign": "ICL600",
+          "originCountry": "Israel",
+          "timestamp": 1758041326000,
+          "lastContact": 1758041326000,
+          "position": {
+            "latitude": 32.0419,
+            "longitude": 34.9156,
+            "altitudeMeters": 243.84,
+            "altitudeFeet": 800
+          },
+          "movement": {
+            "groundSpeedMps": 82.4,
+            "groundSpeedKnots": 160,
+            "headingDegrees": 208.32,
+            "verticalRateMps": -4.55,
+            "verticalRateFpm": -896
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 111
+          }
+        },
+        {
+          "icao24": "738e10",
+          "callsign": "4XDAP",
+          "originCountry": "Israel",
+          "timestamp": 1758041326000,
+          "lastContact": 1758041326000,
+          "position": {
+            "latitude": 31.8211,
+            "longitude": 34.8378,
+            "altitudeMeters": 213.36,
+            "altitudeFeet": 700
+          },
+          "movement": {
+            "groundSpeedMps": 36.83,
+            "groundSpeedKnots": 72,
+            "headingDegrees": 331.65,
+            "verticalRateMps": -2.93,
+            "verticalRateFpm": -577
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5237
+          }
+        }
+      ],
+      "count": 5
+    },
+    {
+      "timestamp": 1758041367636,
+      "collectionTime": "2025-09-16T16:49:27.636Z",
+      "metadata": {
+        "fetchDuration": 391,
+        "apiTimestamp": 1758041361,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738064",
+          "callsign": "ELY289",
+          "originCountry": "Israel",
+          "timestamp": 1758041361000,
+          "lastContact": 1758041361000,
+          "position": {
+            "latitude": 32.024,
+            "longitude": 34.6381,
+            "altitudeMeters": 2316.48,
+            "altitudeFeet": 7600
+          },
+          "movement": {
+            "groundSpeedMps": 147.11,
+            "groundSpeedKnots": 286,
+            "headingDegrees": 283.55,
+            "verticalRateMps": 11.7,
+            "verticalRateFpm": 2303
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5631
+          }
+        },
+        {
+          "icao24": "738288",
+          "callsign": "ISR893",
+          "originCountry": "Israel",
+          "timestamp": 1758041361000,
+          "lastContact": 1758041313000,
+          "position": {
+            "latitude": 31.9939,
+            "longitude": 34.8885,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 286.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "896514",
+          "callsign": "FDB1126",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758041361000,
+          "lastContact": 1758041360000,
+          "position": {
+            "latitude": 32.0035,
+            "longitude": 34.8775,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 9.26,
+            "groundSpeedKnots": 18,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738c0a",
+          "callsign": "ICL600",
+          "originCountry": "Israel",
+          "timestamp": 1758041361000,
+          "lastContact": 1758041358000,
+          "position": {
+            "latitude": 32.0419,
+            "longitude": 34.9156,
+            "altitudeMeters": 243.84,
+            "altitudeFeet": 800
+          },
+          "movement": {
+            "groundSpeedMps": 80.35,
+            "groundSpeedKnots": 156,
+            "headingDegrees": 208.7,
+            "verticalRateMps": -3.25,
+            "verticalRateFpm": -640
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 111
+          }
+        },
+        {
+          "icao24": "738e10",
+          "callsign": "4XDAP",
+          "originCountry": "Israel",
+          "timestamp": 1758041361000,
+          "lastContact": 1758041361000,
+          "position": {
+            "latitude": 31.8312,
+            "longitude": 34.8312,
+            "altitudeMeters": 106.68,
+            "altitudeFeet": 350
+          },
+          "movement": {
+            "groundSpeedMps": 37.08,
+            "groundSpeedKnots": 72,
+            "headingDegrees": 330.95,
+            "verticalRateMps": -2.28,
+            "verticalRateFpm": -449
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5237
+          }
+        }
+      ],
+      "count": 5
+    },
+    {
+      "timestamp": 1758041397664,
+      "collectionTime": "2025-09-16T16:49:57.664Z",
+      "metadata": {
+        "fetchDuration": 420,
+        "apiTimestamp": 1758041396,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738064",
+          "callsign": "ELY289",
+          "originCountry": "Israel",
+          "timestamp": 1758041396000,
+          "lastContact": 1758041396000,
+          "position": {
+            "latitude": 32.0289,
+            "longitude": 34.5842,
+            "altitudeMeters": 2758.44,
+            "altitudeFeet": 9050
+          },
+          "movement": {
+            "groundSpeedMps": 150.06,
+            "groundSpeedKnots": 292,
+            "headingDegrees": 273.93,
+            "verticalRateMps": 13.66,
+            "verticalRateFpm": 2689
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5631
+          }
+        },
+        {
+          "icao24": "738288",
+          "callsign": "ISR893",
+          "originCountry": "Israel",
+          "timestamp": 1758041396000,
+          "lastContact": 1758041313000,
+          "position": {
+            "latitude": 31.9939,
+            "longitude": 34.8885,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 286.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "896514",
+          "callsign": "FDB1126",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758041396000,
+          "lastContact": 1758041395000,
+          "position": {
+            "latitude": 32.0059,
+            "longitude": 34.8791,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 7.72,
+            "groundSpeedKnots": 15,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738c0a",
+          "callsign": "ICL600",
+          "originCountry": "Israel",
+          "timestamp": 1758041396000,
+          "lastContact": 1758041358000,
+          "position": {
+            "latitude": 32.0419,
+            "longitude": 34.9156,
+            "altitudeMeters": 243.84,
+            "altitudeFeet": 800
+          },
+          "movement": {
+            "groundSpeedMps": 80.35,
+            "groundSpeedKnots": 156,
+            "headingDegrees": 208.7,
+            "verticalRateMps": -3.25,
+            "verticalRateFpm": -640
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 111
+          }
+        },
+        {
+          "icao24": "738e10",
+          "callsign": "4XDAP",
+          "originCountry": "Israel",
+          "timestamp": 1758041396000,
+          "lastContact": 1758041396000,
+          "position": {
+            "latitude": 31.8406,
+            "longitude": 34.8252,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 33.63,
+            "groundSpeedKnots": 65,
+            "headingDegrees": 330.69,
+            "verticalRateMps": 2.93,
+            "verticalRateFpm": 577
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5237
+          }
+        }
+      ],
+      "count": 5
+    }
+  ],
+  "lastUpdated": "2025-09-16T16:49:57.666Z",
+  "totalCollections": 4
+}

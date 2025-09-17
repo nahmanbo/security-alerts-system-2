@@ -1,0 +1,216 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758046380948,
+      "collectionTime": "2025-09-16T18:13:00.948Z",
+      "metadata": {
+        "fetchDuration": 395,
+        "apiTimestamp": 1758046367,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "471efe",
+          "callsign": "WMT24PM",
+          "originCountry": "Hungary",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046302000,
+          "position": {
+            "latitude": 32.0062,
+            "longitude": 34.8902,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.69,
+            "groundSpeedKnots": 13,
+            "headingDegrees": 28.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738062",
+          "callsign": "ELY5109",
+          "originCountry": "Israel",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046196000,
+          "position": {
+            "latitude": 32.0086,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 11.83,
+            "groundSpeedKnots": 23,
+            "headingDegrees": 28.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "73805c",
+          "callsign": null,
+          "originCountry": "Israel",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046366000,
+          "position": {
+            "latitude": 32.0053,
+            "longitude": 34.8898,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 5.4,
+            "groundSpeedKnots": 10,
+            "headingDegrees": 343.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "739350",
+          "callsign": "4XCNA",
+          "originCountry": "Israel",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046366000,
+          "position": {
+            "latitude": 32.1528,
+            "longitude": 34.7573,
+            "altitudeMeters": 944.88,
+            "altitudeFeet": 3100
+          },
+          "movement": {
+            "groundSpeedMps": 110.85,
+            "groundSpeedKnots": 215,
+            "headingDegrees": 246.77,
+            "verticalRateMps": 0,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 577
+          }
+        },
+        {
+          "icao24": "600854",
+          "callsign": "AHY321",
+          "originCountry": "Azerbaijan",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046341000,
+          "position": {
+            "latitude": 32.0042,
+            "longitude": 34.8855,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 15.43,
+            "groundSpeedKnots": 30,
+            "headingDegrees": 137.81,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 5373
+          }
+        },
+        {
+          "icao24": "49d3bb",
+          "callsign": "ISR166",
+          "originCountry": "Czech Republic",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046290000,
+          "position": {
+            "latitude": 32.0003,
+            "longitude": 34.8848,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 3.09,
+            "groundSpeedKnots": 6,
+            "headingDegrees": 300.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 6527
+          }
+        },
+        {
+          "icao24": "040232",
+          "callsign": "ETH414",
+          "originCountry": "Ethiopia",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046367000,
+          "position": {
+            "latitude": 32.0948,
+            "longitude": 34.7117,
+            "altitudeMeters": 929.64,
+            "altitudeFeet": 3050
+          },
+          "movement": {
+            "groundSpeedMps": 100.4,
+            "groundSpeedKnots": 195,
+            "headingDegrees": 121.17,
+            "verticalRateMps": -0.65,
+            "verticalRateFpm": -128
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 3370
+          }
+        },
+        {
+          "icao24": "4692d2",
+          "callsign": "AEE927",
+          "originCountry": "Greece",
+          "timestamp": 1758046367000,
+          "lastContact": 1758046364000,
+          "position": {
+            "latitude": 32.0073,
+            "longitude": 34.8802,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 11.32,
+            "groundSpeedKnots": 22,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 8
+    }
+  ],
+  "lastUpdated": "2025-09-16T18:13:00.948Z",
+  "totalCollections": 1
+}

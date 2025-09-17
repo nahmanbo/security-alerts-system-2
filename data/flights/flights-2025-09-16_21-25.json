@@ -1,0 +1,72 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758047267509,
+      "collectionTime": "2025-09-16T18:27:47.509Z",
+      "metadata": {
+        "fetchDuration": 396,
+        "apiTimestamp": 1758047265,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738446",
+          "callsign": "AIZ742",
+          "originCountry": "Israel",
+          "timestamp": 1758047265000,
+          "lastContact": 1758047235000,
+          "position": {
+            "latitude": 31.9982,
+            "longitude": 34.8942,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.06,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 196.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7551
+          }
+        },
+        {
+          "icao24": "503cc0",
+          "callsign": "KLJ6867",
+          "originCountry": "Lithuania",
+          "timestamp": 1758047265000,
+          "lastContact": 1758047230000,
+          "position": {
+            "latitude": 31.9969,
+            "longitude": 34.8962,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 4.63,
+            "groundSpeedKnots": 9,
+            "headingDegrees": 109.69,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 2
+    }
+  ],
+  "lastUpdated": "2025-09-16T18:27:47.509Z",
+  "totalCollections": 1
+}

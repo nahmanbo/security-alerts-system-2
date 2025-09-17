@@ -1,0 +1,96 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758073926238,
+      "collectionTime": "2025-09-17T01:52:06.238Z",
+      "metadata": {
+        "fetchDuration": 953,
+        "apiTimestamp": 1758073908,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "7380c7",
+          "callsign": "ELY318",
+          "originCountry": "Israel",
+          "timestamp": 1758073908000,
+          "lastContact": 1758073907000,
+          "position": {
+            "latitude": 32.0888,
+            "longitude": 34.723,
+            "altitudeMeters": 899.16,
+            "altitudeFeet": 2950
+          },
+          "movement": {
+            "groundSpeedMps": 96.26,
+            "groundSpeedKnots": 187,
+            "headingDegrees": 121.23,
+            "verticalRateMps": -3.9,
+            "verticalRateFpm": -768
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5207
+          }
+        },
+        {
+          "icao24": "4ca961",
+          "callsign": "NOS9030",
+          "originCountry": "Ireland",
+          "timestamp": 1758073908000,
+          "lastContact": 1758073902000,
+          "position": {
+            "latitude": 32.0483,
+            "longitude": 34.8012,
+            "altitudeMeters": 441.96,
+            "altitudeFeet": 1450
+          },
+          "movement": {
+            "groundSpeedMps": 86.29,
+            "groundSpeedKnots": 168,
+            "headingDegrees": 120.85,
+            "verticalRateMps": -4.23,
+            "verticalRateFpm": -833
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5225
+          }
+        },
+        {
+          "icao24": "503cb3",
+          "callsign": "ELY5434",
+          "originCountry": "Lithuania",
+          "timestamp": 1758073908000,
+          "lastContact": 1758073893000,
+          "position": {
+            "latitude": 32.0042,
+            "longitude": 34.8855,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 14.4,
+            "groundSpeedKnots": 28,
+            "headingDegrees": 137.81,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 6007
+          }
+        }
+      ],
+      "count": 3
+    }
+  ],
+  "lastUpdated": "2025-09-17T01:52:06.238Z",
+  "totalCollections": 1
+}

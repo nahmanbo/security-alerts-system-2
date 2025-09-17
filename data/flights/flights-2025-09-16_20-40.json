@@ -1,0 +1,258 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758044509563,
+      "collectionTime": "2025-09-16T17:41:49.563Z",
+      "metadata": {
+        "fetchDuration": 2363,
+        "apiTimestamp": 1758044508,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "452144",
+          "callsign": null,
+          "originCountry": "Bulgaria",
+          "timestamp": 1758044508000,
+          "lastContact": 1758044462000,
+          "position": {
+            "latitude": 32.0054,
+            "longitude": 34.8765,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 1.54,
+            "groundSpeedKnots": 3,
+            "headingDegrees": 300.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "452130",
+          "callsign": "CGF1907",
+          "originCountry": "Bulgaria",
+          "timestamp": 1758044508000,
+          "lastContact": 1758044507000,
+          "position": {
+            "latitude": 32.0064,
+            "longitude": 34.8873,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 12.35,
+            "groundSpeedKnots": 24,
+            "headingDegrees": 300.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738488",
+          "callsign": "AIZ827",
+          "originCountry": "Israel",
+          "timestamp": 1758044508000,
+          "lastContact": 1758044498000,
+          "position": {
+            "latitude": 31.998,
+            "longitude": 34.8934,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 3.09,
+            "groundSpeedKnots": 6,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4a0481",
+          "callsign": "AIZ213",
+          "originCountry": "Romania",
+          "timestamp": 1758044508000,
+          "lastContact": 1758044507000,
+          "position": {
+            "latitude": 32.0218,
+            "longitude": 34.6526,
+            "altitudeMeters": 1973.58,
+            "altitudeFeet": 6475
+          },
+          "movement": {
+            "groundSpeedMps": 144.51,
+            "groundSpeedKnots": 281,
+            "headingDegrees": 289.98,
+            "verticalRateMps": 12.68,
+            "verticalRateFpm": 2496
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5546
+          }
+        },
+        {
+          "icao24": "4a0484",
+          "callsign": "ISR561",
+          "originCountry": "Romania",
+          "timestamp": 1758044508000,
+          "lastContact": 1758044507000,
+          "position": {
+            "latitude": 32.004,
+            "longitude": 34.8146,
+            "altitudeMeters": 807.72,
+            "altitudeFeet": 2650
+          },
+          "movement": {
+            "groundSpeedMps": 85.47,
+            "groundSpeedKnots": 166,
+            "headingDegrees": 255.71,
+            "verticalRateMps": 10.4,
+            "verticalRateFpm": 2047
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 4142
+          }
+        }
+      ],
+      "count": 5
+    },
+    {
+      "timestamp": 1758044664556,
+      "collectionTime": "2025-09-16T17:44:24.556Z",
+      "metadata": {
+        "fetchDuration": 841,
+        "apiTimestamp": 1758044662,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "452144",
+          "callsign": null,
+          "originCountry": "Bulgaria",
+          "timestamp": 1758044662000,
+          "lastContact": 1758044660000,
+          "position": {
+            "latitude": 32.006,
+            "longitude": 34.8771,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 4.63,
+            "groundSpeedKnots": 9,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "452130",
+          "callsign": "CGF1907",
+          "originCountry": "Bulgaria",
+          "timestamp": 1758044662000,
+          "lastContact": 1758044658000,
+          "position": {
+            "latitude": 32.0145,
+            "longitude": 34.8869,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 9.26,
+            "groundSpeedKnots": 18,
+            "headingDegrees": 64.69,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "738488",
+          "callsign": "AIZ827",
+          "originCountry": "Israel",
+          "timestamp": 1758044662000,
+          "lastContact": 1758044661000,
+          "position": {
+            "latitude": 32.0147,
+            "longitude": 34.8661,
+            "altitudeMeters": 220.98,
+            "altitudeFeet": 725
+          },
+          "movement": {
+            "groundSpeedMps": 80.49,
+            "groundSpeedKnots": 156,
+            "headingDegrees": 302.47,
+            "verticalRateMps": 13.66,
+            "verticalRateFpm": 2689
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4a0484",
+          "callsign": "ISR561",
+          "originCountry": "Romania",
+          "timestamp": 1758044662000,
+          "lastContact": 1758044661000,
+          "position": {
+            "latitude": 32.0273,
+            "longitude": 34.6235,
+            "altitudeMeters": 2392.68,
+            "altitudeFeet": 7850
+          },
+          "movement": {
+            "groundSpeedMps": 147.32,
+            "groundSpeedKnots": 286,
+            "headingDegrees": 275.61,
+            "verticalRateMps": 15.28,
+            "verticalRateFpm": 3008
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 4142
+          }
+        }
+      ],
+      "count": 4
+    }
+  ],
+  "lastUpdated": "2025-09-16T17:44:24.558Z",
+  "totalCollections": 2
+}

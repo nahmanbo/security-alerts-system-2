@@ -1,0 +1,168 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758056644724,
+      "collectionTime": "2025-09-16T21:04:04.724Z",
+      "metadata": {
+        "fetchDuration": 369,
+        "apiTimestamp": 1758056638,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "896608",
+          "callsign": "FDB1626",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758056638000,
+          "lastContact": 1758056637000,
+          "position": {
+            "latitude": 32.0113,
+            "longitude": 34.8507,
+            "altitudeMeters": 198.12,
+            "altitudeFeet": 650
+          },
+          "movement": {
+            "groundSpeedMps": 93.37,
+            "groundSpeedKnots": 181,
+            "headingDegrees": 260.49,
+            "verticalRateMps": 9.75,
+            "verticalRateFpm": 1919
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "507ca3",
+          "callsign": "MFX672",
+          "originCountry": "Uzbekistan",
+          "timestamp": 1758056638000,
+          "lastContact": 1758056554000,
+          "position": {
+            "latitude": 32.0082,
+            "longitude": 34.8915,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 7.72,
+            "groundSpeedKnots": 15,
+            "headingDegrees": 28.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "508429",
+          "callsign": "HYM457",
+          "originCountry": "Ukraine",
+          "timestamp": 1758056638000,
+          "lastContact": 1758056466000,
+          "position": {
+            "latitude": 32.0067,
+            "longitude": 34.8754,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 10.8,
+            "groundSpeedKnots": 21,
+            "headingDegrees": 300.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 5607
+          }
+        },
+        {
+          "icao24": "3c70c8",
+          "callsign": "GEC8290",
+          "originCountry": "Germany",
+          "timestamp": 1758056638000,
+          "lastContact": 1758056637000,
+          "position": {
+            "latitude": 32.0295,
+            "longitude": 34.5746,
+            "altitudeMeters": 3200.4,
+            "altitudeFeet": 10500
+          },
+          "movement": {
+            "groundSpeedMps": 153.17,
+            "groundSpeedKnots": 298,
+            "headingDegrees": 274.04,
+            "verticalRateMps": 11.38,
+            "verticalRateFpm": 2240
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1157
+          }
+        },
+        {
+          "icao24": "503cbe",
+          "callsign": "ELY5138",
+          "originCountry": "Lithuania",
+          "timestamp": 1758056638000,
+          "lastContact": 1758056413000,
+          "position": {
+            "latitude": 31.9965,
+            "longitude": 34.8928,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.31,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 286.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 2243
+          }
+        },
+        {
+          "icao24": "4d203b",
+          "callsign": "BBG251",
+          "originCountry": "Malta",
+          "timestamp": 1758056638000,
+          "lastContact": 1758056598000,
+          "position": {
+            "latitude": 32.0045,
+            "longitude": 34.8854,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 19.55,
+            "groundSpeedKnots": 38,
+            "headingDegrees": 135,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 4314
+          }
+        }
+      ],
+      "count": 6
+    }
+  ],
+  "lastUpdated": "2025-09-16T21:04:04.724Z",
+  "totalCollections": 1
+}

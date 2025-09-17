@@ -1,0 +1,144 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758070859883,
+      "collectionTime": "2025-09-17T01:00:59.883Z",
+      "metadata": {
+        "fetchDuration": 370,
+        "apiTimestamp": 1758070858,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "73806c",
+          "callsign": "ELY2368",
+          "originCountry": "Israel",
+          "timestamp": 1758070858000,
+          "lastContact": 1758070843000,
+          "position": {
+            "latitude": 32.0143,
+            "longitude": 34.8667,
+            "altitudeMeters": 76.2,
+            "altitudeFeet": 250
+          },
+          "movement": {
+            "groundSpeedMps": 80.55,
+            "groundSpeedKnots": 157,
+            "headingDegrees": 121.15,
+            "verticalRateMps": -3.9,
+            "verticalRateFpm": -768
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 4150
+          }
+        },
+        {
+          "icao24": "738060",
+          "callsign": "ELY5106",
+          "originCountry": "Israel",
+          "timestamp": 1758070858000,
+          "lastContact": 1758070800000,
+          "position": {
+            "latitude": 31.9952,
+            "longitude": 34.892,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 1.03,
+            "groundSpeedKnots": 2,
+            "headingDegrees": 286.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 5647
+          }
+        },
+        {
+          "icao24": "738289",
+          "callsign": "ISR352",
+          "originCountry": "Israel",
+          "timestamp": 1758070858000,
+          "lastContact": 1758070858000,
+          "position": {
+            "latitude": 32.1722,
+            "longitude": 34.5694,
+            "altitudeMeters": 1181.1,
+            "altitudeFeet": 3875
+          },
+          "movement": {
+            "groundSpeedMps": 143.82,
+            "groundSpeedKnots": 280,
+            "headingDegrees": 123.92,
+            "verticalRateMps": -5.2,
+            "verticalRateFpm": -1024
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 241
+          }
+        },
+        {
+          "icao24": "738373",
+          "callsign": "FM6",
+          "originCountry": "Israel",
+          "timestamp": 1758070858000,
+          "lastContact": 1758070655000,
+          "position": {
+            "latitude": 32.0035,
+            "longitude": 34.879,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 6.43,
+            "groundSpeedKnots": 12,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "503d62",
+          "callsign": "ELY5120",
+          "originCountry": "Lithuania",
+          "timestamp": 1758070858000,
+          "lastContact": 1758070809000,
+          "position": {
+            "latitude": 32.0021,
+            "longitude": 34.8786,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 1341
+          }
+        }
+      ],
+      "count": 5
+    }
+  ],
+  "lastUpdated": "2025-09-17T01:00:59.883Z",
+  "totalCollections": 1
+}

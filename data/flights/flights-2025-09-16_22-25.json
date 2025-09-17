@@ -1,0 +1,192 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758050815932,
+      "collectionTime": "2025-09-16T19:26:55.932Z",
+      "metadata": {
+        "fetchDuration": 402,
+        "apiTimestamp": 1758050813,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "45caa8",
+          "callsign": "AIZ912",
+          "originCountry": "Denmark",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050625000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 106.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 3471
+          }
+        },
+        {
+          "icao24": "7380cc",
+          "callsign": "ELY084",
+          "originCountry": "Israel",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050812000,
+          "position": {
+            "latitude": 32.0033,
+            "longitude": 34.8773,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 4.12,
+            "groundSpeedKnots": 8,
+            "headingDegrees": 208.12,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 742
+          }
+        },
+        {
+          "icao24": "738287",
+          "callsign": "ISR574",
+          "originCountry": "Israel",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050813000,
+          "position": {
+            "latitude": 32.045,
+            "longitude": 34.8077,
+            "altitudeMeters": 403.86,
+            "altitudeFeet": 1325
+          },
+          "movement": {
+            "groundSpeedMps": 83.29,
+            "groundSpeedKnots": 162,
+            "headingDegrees": 120.84,
+            "verticalRateMps": -4.23,
+            "verticalRateFpm": -833
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 7417
+          }
+        },
+        {
+          "icao24": "89646c",
+          "callsign": "FDB1841",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050779000,
+          "position": {
+            "latitude": 32.0031,
+            "longitude": 34.8772,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 2.31,
+            "groundSpeedKnots": 4,
+            "headingDegrees": 210.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 541
+          }
+        },
+        {
+          "icao24": "896608",
+          "callsign": "FDB1625",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050813000,
+          "position": {
+            "latitude": 32.1189,
+            "longitude": 34.7026,
+            "altitudeMeters": 1005.84,
+            "altitudeFeet": 3300
+          },
+          "movement": {
+            "groundSpeedMps": 98.28,
+            "groundSpeedKnots": 191,
+            "headingDegrees": 178.8,
+            "verticalRateMps": -2.6,
+            "verticalRateFpm": -512
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 6217
+          }
+        },
+        {
+          "icao24": "503cb3",
+          "callsign": "ELY5226",
+          "originCountry": "Lithuania",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050517000,
+          "position": {
+            "latitude": 32.0027,
+            "longitude": 34.8769,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 4.12,
+            "groundSpeedKnots": 8,
+            "headingDegrees": 210.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 7403
+          }
+        },
+        {
+          "icao24": "4a0483",
+          "callsign": "DIR2125",
+          "originCountry": "Romania",
+          "timestamp": 1758050813000,
+          "lastContact": 1758050812000,
+          "position": {
+            "latitude": 31.9971,
+            "longitude": 34.7831,
+            "altitudeMeters": 990.6,
+            "altitudeFeet": 3250
+          },
+          "movement": {
+            "groundSpeedMps": 89.46,
+            "groundSpeedKnots": 174,
+            "headingDegrees": 256.36,
+            "verticalRateMps": 8.45,
+            "verticalRateFpm": 1663
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5404
+          }
+        }
+      ],
+      "count": 7
+    }
+  ],
+  "lastUpdated": "2025-09-16T19:26:55.932Z",
+  "totalCollections": 1
+}

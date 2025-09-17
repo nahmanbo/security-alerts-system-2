@@ -1,0 +1,96 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758072879646,
+      "collectionTime": "2025-09-17T01:34:39.646Z",
+      "metadata": {
+        "fetchDuration": 373,
+        "apiTimestamp": 1758072875,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "738285",
+          "callsign": "ISR152",
+          "originCountry": "Israel",
+          "timestamp": 1758072875000,
+          "lastContact": 1758072759000,
+          "position": {
+            "latitude": 31.9968,
+            "longitude": 34.8965,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.23,
+            "groundSpeedKnots": 16,
+            "headingDegrees": 112.5,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 4303
+          }
+        },
+        {
+          "icao24": "49d38c",
+          "callsign": "TVS86L",
+          "originCountry": "Czech Republic",
+          "timestamp": 1758072875000,
+          "lastContact": 1758072874000,
+          "position": {
+            "latitude": 32.0191,
+            "longitude": 34.8575,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 75.53,
+            "groundSpeedKnots": 147,
+            "headingDegrees": 121.63,
+            "verticalRateMps": -3.25,
+            "verticalRateFpm": -640
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5206
+          }
+        },
+        {
+          "icao24": "48e893",
+          "callsign": "ENT238",
+          "originCountry": "Poland",
+          "timestamp": 1758072875000,
+          "lastContact": 1758072594000,
+          "position": {
+            "latitude": 32.0067,
+            "longitude": 34.8755,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.75,
+            "groundSpeedKnots": 17,
+            "headingDegrees": 300.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 5604
+          }
+        }
+      ],
+      "count": 3
+    }
+  ],
+  "lastUpdated": "2025-09-17T01:34:39.646Z",
+  "totalCollections": 1
+}

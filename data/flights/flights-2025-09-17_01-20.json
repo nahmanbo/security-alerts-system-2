@@ -1,0 +1,144 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758061297129,
+      "collectionTime": "2025-09-16T22:21:37.129Z",
+      "metadata": {
+        "fetchDuration": 373,
+        "apiTimestamp": 1758061294,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "4a08ea",
+          "callsign": "ROT156",
+          "originCountry": "Romania",
+          "timestamp": 1758061294000,
+          "lastContact": 1758061293000,
+          "position": {
+            "latitude": 31.9966,
+            "longitude": 34.7821,
+            "altitudeMeters": 1143,
+            "altitudeFeet": 3750
+          },
+          "movement": {
+            "groundSpeedMps": 99.21,
+            "groundSpeedKnots": 193,
+            "headingDegrees": 257.12,
+            "verticalRateMps": 4.88,
+            "verticalRateFpm": 961
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1334
+          }
+        },
+        {
+          "icao24": "738101",
+          "callsign": "ELY015",
+          "originCountry": "Israel",
+          "timestamp": 1758061294000,
+          "lastContact": 1758061267000,
+          "position": {
+            "latitude": 32.0146,
+            "longitude": 34.8871,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.23,
+            "groundSpeedKnots": 16,
+            "headingDegrees": 61.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "7380c2",
+          "callsign": "ELY005",
+          "originCountry": "Israel",
+          "timestamp": 1758061294000,
+          "lastContact": 1758061148000,
+          "position": {
+            "latitude": 32.0147,
+            "longitude": 34.8872,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 7.2,
+            "groundSpeedKnots": 14,
+            "headingDegrees": 61.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "7380c5",
+          "callsign": "ELY001",
+          "originCountry": "Israel",
+          "timestamp": 1758061294000,
+          "lastContact": 1758061289000,
+          "position": {
+            "latitude": 32.0044,
+            "longitude": 34.8771,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 160.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "040232",
+          "callsign": "ETH405",
+          "originCountry": "Ethiopia",
+          "timestamp": 1758061294000,
+          "lastContact": 1758061293000,
+          "position": {
+            "latitude": 32.0167,
+            "longitude": 34.8859,
+            "altitudeMeters": 68.58,
+            "altitudeFeet": 225
+          },
+          "movement": {
+            "groundSpeedMps": 53.79,
+            "groundSpeedKnots": 105,
+            "headingDegrees": 260.09,
+            "verticalRateMps": 0,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 5
+    }
+  ],
+  "lastUpdated": "2025-09-16T22:21:37.129Z",
+  "totalCollections": 1
+}

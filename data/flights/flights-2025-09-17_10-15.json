@@ -1,0 +1,720 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758093460762,
+      "collectionTime": "2025-09-17T07:17:40.762Z",
+      "metadata": {
+        "fetchDuration": 416,
+        "apiTimestamp": 1758093457,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "7380c7",
+          "callsign": "ELY105",
+          "originCountry": "Israel",
+          "timestamp": 1758093457000,
+          "lastContact": 1758093456000,
+          "position": {
+            "latitude": 32.007,
+            "longitude": 34.88,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.75,
+            "groundSpeedKnots": 17,
+            "headingDegrees": 25.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "739597",
+          "callsign": "4XHPN",
+          "originCountry": "Israel",
+          "timestamp": 1758093457000,
+          "lastContact": 1758093425000,
+          "position": {
+            "latitude": 32.2672,
+            "longitude": 34.9596,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 33.5,
+            "groundSpeedKnots": 65,
+            "headingDegrees": 356.48,
+            "verticalRateMps": -0.33,
+            "verticalRateFpm": -65
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "8963b2",
+          "callsign": "FDB1074",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758093457000,
+          "lastContact": 1758093456000,
+          "position": {
+            "latitude": 32.031,
+            "longitude": 35.1084,
+            "altitudeMeters": 5334,
+            "altitudeFeet": 17500
+          },
+          "movement": {
+            "groundSpeedMps": 215.04,
+            "groundSpeedKnots": 418,
+            "headingDegrees": 105.4,
+            "verticalRateMps": 12.35,
+            "verticalRateFpm": 2431
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 711
+          }
+        },
+        {
+          "icao24": "501c55",
+          "callsign": "ISR563",
+          "originCountry": "Croatia",
+          "timestamp": 1758093457000,
+          "lastContact": 1758093411000,
+          "position": {
+            "latitude": 32.007,
+            "longitude": 34.88,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 12.35,
+            "groundSpeedKnots": 24,
+            "headingDegrees": 30.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4d22ac",
+          "callsign": "BZ802",
+          "originCountry": "Malta",
+          "timestamp": 1758093457000,
+          "lastContact": 1758093456000,
+          "position": {
+            "latitude": 32.0001,
+            "longitude": 34.7199,
+            "altitudeMeters": 1508.76,
+            "altitudeFeet": 4950
+          },
+          "movement": {
+            "groundSpeedMps": 135.6,
+            "groundSpeedKnots": 264,
+            "headingDegrees": 290.43,
+            "verticalRateMps": 5.85,
+            "verticalRateFpm": 1152
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1144
+          }
+        },
+        {
+          "icao24": "4d2090",
+          "callsign": "WMT4ZL",
+          "originCountry": "Malta",
+          "timestamp": 1758093457000,
+          "lastContact": 1758093453000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 106.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 1333
+          }
+        }
+      ],
+      "count": 6
+    },
+    {
+      "timestamp": 1758093490126,
+      "collectionTime": "2025-09-17T07:18:10.126Z",
+      "metadata": {
+        "fetchDuration": 224,
+        "apiTimestamp": 1758093486,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "7380c7",
+          "callsign": "ELY105",
+          "originCountry": "Israel",
+          "timestamp": 1758093486000,
+          "lastContact": 1758093457000,
+          "position": {
+            "latitude": 32.0072,
+            "longitude": 34.8801,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.23,
+            "groundSpeedKnots": 16,
+            "headingDegrees": 25.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "739597",
+          "callsign": "4XHPN",
+          "originCountry": "Israel",
+          "timestamp": 1758093486000,
+          "lastContact": 1758093425000,
+          "position": {
+            "latitude": 32.2672,
+            "longitude": 34.9596,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 33.5,
+            "groundSpeedKnots": 65,
+            "headingDegrees": 356.48,
+            "verticalRateMps": -0.33,
+            "verticalRateFpm": -65
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "8963b2",
+          "callsign": "FDB1074",
+          "originCountry": "United Arab Emirates",
+          "timestamp": 1758093486000,
+          "lastContact": 1758093486000,
+          "position": {
+            "latitude": 32.0158,
+            "longitude": 35.1727,
+            "altitudeMeters": 5661.66,
+            "altitudeFeet": 18575
+          },
+          "movement": {
+            "groundSpeedMps": 219.56,
+            "groundSpeedKnots": 427,
+            "headingDegrees": 105.63,
+            "verticalRateMps": 5.85,
+            "verticalRateFpm": 1152
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 711
+          }
+        },
+        {
+          "icao24": "501c55",
+          "callsign": "ISR563",
+          "originCountry": "Croatia",
+          "timestamp": 1758093486000,
+          "lastContact": 1758093481000,
+          "position": {
+            "latitude": 32.0144,
+            "longitude": 34.8865,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 15.43,
+            "groundSpeedKnots": 30,
+            "headingDegrees": 61.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4d22ac",
+          "callsign": "BZ802",
+          "originCountry": "Malta",
+          "timestamp": 1758093486000,
+          "lastContact": 1758093485000,
+          "position": {
+            "latitude": 32.0129,
+            "longitude": 34.6791,
+            "altitudeMeters": 1813.56,
+            "altitudeFeet": 5950
+          },
+          "movement": {
+            "groundSpeedMps": 144.21,
+            "groundSpeedKnots": 280,
+            "headingDegrees": 290.25,
+            "verticalRateMps": 6.83,
+            "verticalRateFpm": 1344
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1144
+          }
+        },
+        {
+          "icao24": "4d2090",
+          "callsign": "WMT4ZL",
+          "originCountry": "Malta",
+          "timestamp": 1758093486000,
+          "lastContact": 1758093483000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 106.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 1333
+          }
+        }
+      ],
+      "count": 6
+    },
+    {
+      "timestamp": 1758093520123,
+      "collectionTime": "2025-09-17T07:18:40.123Z",
+      "metadata": {
+        "fetchDuration": 221,
+        "apiTimestamp": 1758093514,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "7380c7",
+          "callsign": "ELY105",
+          "originCountry": "Israel",
+          "timestamp": 1758093514000,
+          "lastContact": 1758093457000,
+          "position": {
+            "latitude": 32.0072,
+            "longitude": 34.8801,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.23,
+            "groundSpeedKnots": 16,
+            "headingDegrees": 25.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "739597",
+          "callsign": "4XHPN",
+          "originCountry": "Israel",
+          "timestamp": 1758093514000,
+          "lastContact": 1758093425000,
+          "position": {
+            "latitude": 32.2672,
+            "longitude": 34.9596,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 33.5,
+            "groundSpeedKnots": 65,
+            "headingDegrees": 356.48,
+            "verticalRateMps": -0.33,
+            "verticalRateFpm": -65
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "501c55",
+          "callsign": "ISR563",
+          "originCountry": "Croatia",
+          "timestamp": 1758093514000,
+          "lastContact": 1758093481000,
+          "position": {
+            "latitude": 32.0144,
+            "longitude": 34.8865,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 15.43,
+            "groundSpeedKnots": 30,
+            "headingDegrees": 61.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4d22ac",
+          "callsign": "BZ802",
+          "originCountry": "Malta",
+          "timestamp": 1758093514000,
+          "lastContact": 1758093513000,
+          "position": {
+            "latitude": 32.0235,
+            "longitude": 34.6369,
+            "altitudeMeters": 2156.46,
+            "altitudeFeet": 7075
+          },
+          "movement": {
+            "groundSpeedMps": 148.63,
+            "groundSpeedKnots": 289,
+            "headingDegrees": 285.05,
+            "verticalRateMps": 14.63,
+            "verticalRateFpm": 2880
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1144
+          }
+        },
+        {
+          "icao24": "4d2090",
+          "callsign": "WMT4ZL",
+          "originCountry": "Malta",
+          "timestamp": 1758093514000,
+          "lastContact": 1758093511000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 106.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 1333
+          }
+        }
+      ],
+      "count": 5
+    },
+    {
+      "timestamp": 1758093550120,
+      "collectionTime": "2025-09-17T07:19:10.120Z",
+      "metadata": {
+        "fetchDuration": 217,
+        "apiTimestamp": 1758093548,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "7380c7",
+          "callsign": "ELY105",
+          "originCountry": "Israel",
+          "timestamp": 1758093548000,
+          "lastContact": 1758093457000,
+          "position": {
+            "latitude": 32.0072,
+            "longitude": 34.8801,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 8.23,
+            "groundSpeedKnots": 16,
+            "headingDegrees": 25.31,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "739597",
+          "callsign": "4XHPN",
+          "originCountry": "Israel",
+          "timestamp": 1758093548000,
+          "lastContact": 1758093425000,
+          "position": {
+            "latitude": 32.2672,
+            "longitude": 34.9596,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 33.5,
+            "groundSpeedKnots": 65,
+            "headingDegrees": 356.48,
+            "verticalRateMps": -0.33,
+            "verticalRateFpm": -65
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "501c55",
+          "callsign": "ISR563",
+          "originCountry": "Croatia",
+          "timestamp": 1758093548000,
+          "lastContact": 1758093481000,
+          "position": {
+            "latitude": 32.0144,
+            "longitude": 34.8865,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 15.43,
+            "groundSpeedKnots": 30,
+            "headingDegrees": 61.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4d22ac",
+          "callsign": "BZ802",
+          "originCountry": "Malta",
+          "timestamp": 1758093548000,
+          "lastContact": 1758093547000,
+          "position": {
+            "latitude": 32.035,
+            "longitude": 34.5859,
+            "altitudeMeters": 2667,
+            "altitudeFeet": 8750
+          },
+          "movement": {
+            "groundSpeedMps": 148.49,
+            "groundSpeedKnots": 289,
+            "headingDegrees": 284.85,
+            "verticalRateMps": 13.66,
+            "verticalRateFpm": 2689
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1144
+          }
+        },
+        {
+          "icao24": "4d2090",
+          "callsign": "WMT4ZL",
+          "originCountry": "Malta",
+          "timestamp": 1758093548000,
+          "lastContact": 1758093543000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 106.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 1333
+          }
+        }
+      ],
+      "count": 5
+    },
+    {
+      "timestamp": 1758093580126,
+      "collectionTime": "2025-09-17T07:19:40.126Z",
+      "metadata": {
+        "fetchDuration": 223,
+        "apiTimestamp": 1758093579,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "7380c7",
+          "callsign": "ELY105",
+          "originCountry": "Israel",
+          "timestamp": 1758093579000,
+          "lastContact": 1758093557000,
+          "position": {
+            "latitude": 32.0143,
+            "longitude": 34.8863,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 11.32,
+            "groundSpeedKnots": 22,
+            "headingDegrees": 53.44,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "739597",
+          "callsign": "4XHPN",
+          "originCountry": "Israel",
+          "timestamp": 1758093579000,
+          "lastContact": 1758093425000,
+          "position": {
+            "latitude": 32.2672,
+            "longitude": 34.9596,
+            "altitudeMeters": 129.54,
+            "altitudeFeet": 425
+          },
+          "movement": {
+            "groundSpeedMps": 33.5,
+            "groundSpeedKnots": 65,
+            "headingDegrees": 356.48,
+            "verticalRateMps": -0.33,
+            "verticalRateFpm": -65
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "501c55",
+          "callsign": "ISR563",
+          "originCountry": "Croatia",
+          "timestamp": 1758093579000,
+          "lastContact": 1758093481000,
+          "position": {
+            "latitude": 32.0144,
+            "longitude": 34.8865,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 15.43,
+            "groundSpeedKnots": 30,
+            "headingDegrees": 61.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4d2090",
+          "callsign": "WMT4ZL",
+          "originCountry": "Malta",
+          "timestamp": 1758093579000,
+          "lastContact": 1758093577000,
+          "position": {
+            "latitude": 31.997,
+            "longitude": 34.8918,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 106.88,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": 1333
+          }
+        }
+      ],
+      "count": 4
+    }
+  ],
+  "lastUpdated": "2025-09-17T07:19:40.128Z",
+  "totalCollections": 5
+}

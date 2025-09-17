@@ -1,0 +1,168 @@
+{
+  "collections": [
+    {
+      "timestamp": 1758081454897,
+      "collectionTime": "2025-09-17T03:57:34.897Z",
+      "metadata": {
+        "fetchDuration": 371,
+        "apiTimestamp": 1758081442,
+        "bounds": {
+          "north": 32.281659270270275,
+          "south": 31.74111872972973,
+          "east": 35.205403461927126,
+          "west": 34.56793053807288
+        },
+        "authEnabled": true
+      },
+      "aircraft": [
+        {
+          "icao24": "73806d",
+          "callsign": "ELY361",
+          "originCountry": "Israel",
+          "timestamp": 1758081442000,
+          "lastContact": 1758081441000,
+          "position": {
+            "latitude": 32.019,
+            "longitude": 34.6598,
+            "altitudeMeters": 2049.78,
+            "altitudeFeet": 6725
+          },
+          "movement": {
+            "groundSpeedMps": 141.32,
+            "groundSpeedKnots": 275,
+            "headingDegrees": 290.68,
+            "verticalRateMps": 19.83,
+            "verticalRateFpm": 3904
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1162
+          }
+        },
+        {
+          "icao24": "738076",
+          "callsign": "ELY028",
+          "originCountry": "Israel",
+          "timestamp": 1758081442000,
+          "lastContact": 1758081441000,
+          "position": {
+            "latitude": 32.2503,
+            "longitude": 34.8148,
+            "altitudeMeters": 1539.24,
+            "altitudeFeet": 5050
+          },
+          "movement": {
+            "groundSpeedMps": 127.88,
+            "groundSpeedKnots": 249,
+            "headingDegrees": 107.56,
+            "verticalRateMps": -4.23,
+            "verticalRateFpm": -833
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 1163
+          }
+        },
+        {
+          "icao24": "738059",
+          "callsign": "ELY223",
+          "originCountry": "Israel",
+          "timestamp": 1758081442000,
+          "lastContact": 1758081441000,
+          "position": {
+            "latitude": 32.0154,
+            "longitude": 34.8771,
+            "altitudeMeters": 60.96,
+            "altitudeFeet": 200
+          },
+          "movement": {
+            "groundSpeedMps": 70.83,
+            "groundSpeedKnots": 138,
+            "headingDegrees": 258.69,
+            "verticalRateMps": 0,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "4a3122",
+          "callsign": "AIZ415",
+          "originCountry": "Romania",
+          "timestamp": 1758081442000,
+          "lastContact": 1758081437000,
+          "position": {
+            "latitude": 32.0009,
+            "longitude": 34.8778,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 0,
+            "groundSpeedKnots": 0,
+            "headingDegrees": 120.94,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        },
+        {
+          "icao24": "7395af",
+          "callsign": "4XHSG",
+          "originCountry": "Israel",
+          "timestamp": 1758081442000,
+          "lastContact": 1758081441000,
+          "position": {
+            "latitude": 31.9682,
+            "longitude": 34.7533,
+            "altitudeMeters": 167.64,
+            "altitudeFeet": 550
+          },
+          "movement": {
+            "groundSpeedMps": 37.51,
+            "groundSpeedKnots": 73,
+            "headingDegrees": 334.84,
+            "verticalRateMps": 2.93,
+            "verticalRateFpm": 577
+          },
+          "status": {
+            "onGround": false,
+            "squawkCode": 5100
+          }
+        },
+        {
+          "icao24": "738488",
+          "callsign": "AIZ351",
+          "originCountry": "Israel",
+          "timestamp": 1758081442000,
+          "lastContact": 1758081383000,
+          "position": {
+            "latitude": 32.015,
+            "longitude": 34.8887,
+            "altitudeMeters": null,
+            "altitudeFeet": null
+          },
+          "movement": {
+            "groundSpeedMps": 9.77,
+            "groundSpeedKnots": 19,
+            "headingDegrees": 78.75,
+            "verticalRateMps": null,
+            "verticalRateFpm": 0
+          },
+          "status": {
+            "onGround": true,
+            "squawkCode": null
+          }
+        }
+      ],
+      "count": 6
+    }
+  ],
+  "lastUpdated": "2025-09-17T03:57:34.897Z",
+  "totalCollections": 1
+}
